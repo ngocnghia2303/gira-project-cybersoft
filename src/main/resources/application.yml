@@ -1,0 +1,21 @@
+spring:
+
+  security:
+    user:
+      name: admin
+      password: 1234
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: Ngh.23031994
+    
+  jpa:
+    hibernate:
+      ddl-auto: create
+    generate-ddl: true
+    show-sql: true
+    
+  flyway:
+    enabled: false
+    driver-class-name: org.postgresql.Driver
