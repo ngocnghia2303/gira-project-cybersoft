@@ -17,14 +17,11 @@ import cybersoft.javabackend.java16giranghia.role.repository.GiraRoleRepository;
 public class GiraRoleRepositoryTest {
 	@Autowired
 	GiraRoleRepository repository;
-	
+
 	@Test
 	public void shouldNotInsertRole() {
-		GiraRole role = GiraRole.builder()
-				.code("FOUH")
-				.description("Nghia dep trai")
-				.build();
-		
-		assertDoesNotThrow(()->repository.save(role));
+		GiraRole role = GiraRole.builder().code("FOUH").description("Nghia dep trai").build();
+
+		assertDoesNotThrow(() -> repository.save(role));
 	}
 }

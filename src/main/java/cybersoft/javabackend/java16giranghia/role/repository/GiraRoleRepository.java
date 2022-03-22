@@ -9,5 +9,5 @@ import cybersoft.javabackend.java16giranghia.role.model.GiraRole;
 
 @Repository
 public interface GiraRoleRepository extends JpaRepository<GiraRole, UUID> {
-	
+
 }

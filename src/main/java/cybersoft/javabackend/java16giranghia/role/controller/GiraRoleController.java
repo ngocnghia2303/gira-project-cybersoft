@@ -24,27 +24,26 @@ import cybersoft.javabackend.java16giranghia.role.service.GiraRoleService;
 public class GiraRoleController {
 	@Autowired
 	private GiraRoleService service;
-	
+
 	@GetMapping
 	public Object findAllRoles() {
 		List<GiraRole> roles = service.findAllEntity();
 		return new ResponseEntity<>(roles, HttpStatus.OK);
 	}
-	
+
 	@PostMapping
-	public Object createNewRole(@Valid @RequestBody GiraRoleDTO dto, 
-			BindingResult bindingResult) {
-		if(bindingResult.hasErrors()) {
-			return new ResponseEntity<>(bindingResult.getAllErrors()
-					.stream().map(t -> t.getDefaultMessage()).collect(Collectors.toList())
-					, HttpStatus.BAD_REQUEST);
+	public Object createNewRole(@Valid @RequestBody GiraRoleDTO dto, BindingResult bindingResult) {
+		if (bindingResult.hasErrors()) {
+			return new ResponseEntity<>(
+					bindingResult.getAllErrors().stream().map(t -> t.getDefaultMessage()).collect(Collectors.toList()),
+					HttpStatus.BAD_REQUEST);
 		}
-		
+
 		GiraRole role = service.save(dto);
 		System.out.println(role);
 		return new ResponseEntity<>(role, HttpStatus.CREATED);
 	}
-	
+
 //	@PostMapping
 //	public Object createNewRole(@RequestBody GiraRoleDTO dto) {
 //		try {

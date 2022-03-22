@@ -27,24 +27,24 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 @MappedSuperclass
 public class BaseEntity implements Serializable {
-	
+
 	@Id
 	@Type(type = "uuid-char")
 	@GeneratedValue
 	protected UUID id;
-	
+
 	@Version
 	protected int version;
-	
+
 	@CreatedDate
 	protected LocalDateTime createAt;
-	
+
 	@CreatedBy
 	protected String createdBy;
-	
+
 	@LastModifiedDate
 	protected LocalDateTime lastModifiedAt;
-	
+
 	@LastModifiedBy
 	protected String lastModifiedBy;
 

@@ -22,21 +22,18 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @SuperBuilder
 @Entity
-@Table(name="gira_group")
+@Table(name = "gira_group")
 public class GiraGroup extends BaseEntity {
 
 	// id, code, description, roles
 	private String code;
 	private String description;
-	
+
 	// Group is a boss of the roles :))
-	@ManyToMany(cascade = {CascadeType.MERGE, CascadeType.PERSIST}) // Persist == bo nho cua hibernate
+	@ManyToMany(cascade = { CascadeType.MERGE, CascadeType.PERSIST }) // Persist == bo nho cua hibernate
 	@JoinTable(
 			// table secondary is "gira_group_role" in the many to many reference
-			name = "gira_group_role",
-			joinColumns = @JoinColumn(name="group_id"),
-			inverseJoinColumns = @JoinColumn(name="role_id")
-			)
+			name = "gira_group_role", joinColumns = @JoinColumn(name = "group_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
 	private Set<GiraRole> roles = new LinkedHashSet();
 
 }

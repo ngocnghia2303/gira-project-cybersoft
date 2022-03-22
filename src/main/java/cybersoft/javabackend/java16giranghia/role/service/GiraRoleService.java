@@ -8,5 +8,6 @@ import cybersoft.javabackend.java16giranghia.role.model.GiraRole;
 public interface GiraRoleService {
 	// find all Role & save role
 	List<GiraRole> findAllEntity();
+
 	GiraRole save(GiraRoleDTO dto);
 }

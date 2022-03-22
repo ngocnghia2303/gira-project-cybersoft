@@ -16,10 +16,10 @@ public class GiraRoleServiceImpl implements GiraRoleService {
 	private GiraRoleRepository repository;
 
 	@Override
-	public List<GiraRole> findAllEntity(){
+	public List<GiraRole> findAllEntity() {
 		return repository.findAll();
 	}
-	
+
 	@Override
 	public GiraRole save(GiraRoleDTO dto) {
 		// Map dto to entity
