@@ -33,7 +33,25 @@ public class GiraGroup extends BaseEntity {
 	@ManyToMany(cascade = { CascadeType.MERGE, CascadeType.PERSIST }) // Persist == bo nho cua hibernate
 	@JoinTable(
 			// table secondary is "gira_group_role" in the many to many reference
-			name = "gira_group_role", joinColumns = @JoinColumn(name = "group_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
+			name = "gira_group_role",
+			joinColumns = @JoinColumn(name = "group_id"),
+			inverseJoinColumns = @JoinColumn(name = "role_id"))
 	private Set<GiraRole> roles = new LinkedHashSet();
-
+	
+	// function => addRole
+	public void addRole(GiraRole role) {
+		roles.add(role);
+		role.getGroups().add(this);
+	}
+	
+	// function => removeRole
+	public void removeRole(GiraRole role) {
+		roles.remove(role);
+		role.getGroups().remove(this);
+	}
+	
+	// function => clearRole
+	public void clearRole() {
+		this.roles.clear();
+	}
 }

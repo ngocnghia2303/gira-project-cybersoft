@@ -1,5 +1,6 @@
 cybersoft\javabackend\java16giranghia\role\model\GiraRole$1.class
 cybersoft\javabackend\java16giranghia\role\model\GiraRole.class
+cybersoft\javabackend\java16giranghia\role\dto\GiraGroupWithRoleDTO.class
 cybersoft\javabackend\java16giranghia\role\repository\GiraRoleRepository.class
 cybersoft\javabackend\java16giranghia\role\controller\GiraGroupController.class
 cybersoft\javabackend\java16giranghia\role\dto\GiraGroupDTO.class
@@ -15,6 +16,7 @@ cybersoft\javabackend\java16giranghia\role\mapper\GiraGroupMapperImpl.class
 cybersoft\javabackend\java16giranghia\common\util\ErrorHelper.class
 cybersoft\javabackend\java16giranghia\role\model\GiraGroup$GiraGroupBuilder.class
 cybersoft\javabackend\java16giranghia\role\controller\GiraRoleController.class
+cybersoft\javabackend\java16giranghia\common\util\ResponseHelper.class
 cybersoft\javabackend\java16giranghia\config\SwaggerConfig.class
 cybersoft\javabackend\java16giranghia\role\model\GiraGroup.class
 cybersoft\javabackend\java16giranghia\role\model\GiraRole$GiraRoleBuilderImpl.class

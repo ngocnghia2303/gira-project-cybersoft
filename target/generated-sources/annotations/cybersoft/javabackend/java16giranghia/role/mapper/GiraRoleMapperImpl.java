@@ -7,7 +7,7 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-03-24T09:26:32+0700",
+    date = "2022-03-24T23:12:53+0700",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 15.0.2 (Oracle Corporation)"
 )
 public class GiraRoleMapperImpl implements GiraRoleMapper {

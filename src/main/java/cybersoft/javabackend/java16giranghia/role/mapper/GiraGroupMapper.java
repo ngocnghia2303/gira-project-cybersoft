@@ -4,6 +4,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
 import cybersoft.javabackend.java16giranghia.role.dto.GiraGroupDTO;
+import cybersoft.javabackend.java16giranghia.role.dto.GiraGroupWithRoleDTO;
 import cybersoft.javabackend.java16giranghia.role.model.GiraGroup;
 
 @Mapper
@@ -12,4 +13,5 @@ public interface GiraGroupMapper {
 	
 	GiraGroupDTO toDTO(GiraGroup model);
 	GiraGroup toModel(GiraGroupDTO dto);
+	GiraGroupWithRoleDTO toDtoWithRoles(GiraGroup modifiedGroup);
 }
