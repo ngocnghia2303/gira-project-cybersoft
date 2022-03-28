@@ -17,5 +17,9 @@ spring:
     show-sql: true
     
   flyway:
-    enabled: true
+    enabled: false
     driver-class-name: org.postgresql.Driver
+    
+logging:
+   level:
+      root: debug

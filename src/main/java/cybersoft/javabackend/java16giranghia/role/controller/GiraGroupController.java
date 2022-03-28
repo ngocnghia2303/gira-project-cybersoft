@@ -16,12 +16,16 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.sun.tools.sjavac.Log;
+
 import cybersoft.javabackend.java16giranghia.common.util.ErrorHelper;
 import cybersoft.javabackend.java16giranghia.common.util.ResponseHelper;
 import cybersoft.javabackend.java16giranghia.role.dto.GiraGroupDTO;
 import cybersoft.javabackend.java16giranghia.role.dto.GiraGroupWithRoleDTO;
 import cybersoft.javabackend.java16giranghia.role.service.GiraGroupService;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @RestController
 @RequestMapping("groups")
 public class GiraGroupController {
@@ -30,16 +34,24 @@ public class GiraGroupController {
 
 	@GetMapping
 	public Object findAllGroup() {
+		// threat pool
+		
+		// imperative & reactive - callback hell - async await
+		
+		// reactive for java coding & reactor & cloud native frameword
+
+		log.info("Find all Gira group...");
+		log.debug("Calling Gira GroupService.findAllDto()");
 		List<GiraGroupDTO> groups = services.findAllDto();
+		log.debug("result: {}", groups);
+		log.info("Find all Group STOPPED");
 		return ResponseHelper.getResponse(groups, HttpStatus.OK);
-//		return new ResponseEntity<>(groups, HttpStatus.OK);
 	}
 
 	@PostMapping
 	public Object createNewGroup(@Valid @RequestBody GiraGroupDTO dto, BindingResult result) {
 		if (result.hasErrors()) {
 			return ResponseHelper.getErrosResponse(result, HttpStatus.BAD_GATEWAY);
-//			return new ResponseEntity<>(ErrorHelper.getAllError(result), HttpStatus.BAD_GATEWAY);
 		}
 
 		GiraGroupDTO newGroup = services.createNewGroup(dto);
@@ -56,17 +68,17 @@ public class GiraGroupController {
 		}
 		return ResponseHelper.getResponse(modifiedGroup, HttpStatus.OK);
 	}
-	
+
 //	remove-role
 	@DeleteMapping("remove-role/{group-id}/{role-id}")
-	public Object removeRole(@PathVariable(name="group-id") String groupId,
-			@PathVariable(name="role-id") String roleId) {
+	public Object removeRole(@PathVariable(name = "group-id") String groupId,
+			@PathVariable(name = "role-id") String roleId) {
 		GiraGroupWithRoleDTO removedGroup = services.removeRole(groupId, roleId);
-		
+
 		if (removedGroup == null) {
 			return ResponseHelper.getErrosResponse("Group or Role is not existing.", HttpStatus.BAD_REQUEST);
 		}
-		
+
 		return ResponseHelper.getResponse(removedGroup, HttpStatus.OK);
 	}
 }
