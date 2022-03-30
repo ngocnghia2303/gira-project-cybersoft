@@ -3,12 +3,14 @@ package cybersoft.javabackend.java16giranghia.user.dto;
 import java.util.Set;
 
 import javax.persistence.Entity;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
 import cybersoft.javabackend.java16giranghia.common.model.BaseEntity;
 import cybersoft.javabackend.java16giranghia.role.model.GiraGroup;
 import cybersoft.javabackend.java16giranghia.user.model.GiraUser;
 import cybersoft.javabackend.java16giranghia.user.model.UserStatus;
+import cybersoft.javabackend.java16giranghia.user.validation.annotation.UniqueEmail;
 import cybersoft.javabackend.java16giranghia.user.validation.annotation.UniqueUsername;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -23,13 +25,16 @@ public class GiraUserDTO {
 	// mandatory (thuoc tinh bat buoc)
 	@Size(min=3, max=100, message="{user.username.size}")
 	@UniqueUsername(message="{user.username.existed}")
+	@NotBlank
 	private String username;
 	
 	private String password;
 	
 	private String displayName;
 	
-	private String email;
+	@UniqueEmail(message="{user.email.existed}")
+	@NotBlank
+	private String email; // write email validator annotation
 	
 	private UserStatus status;
 }
