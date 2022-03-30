@@ -38,7 +38,7 @@ public class GiraGroupController {
 	@PostMapping
 	public Object createNewGroup(@Valid @RequestBody GiraGroupDTO dto, BindingResult result) {
 		if (result.hasErrors()) {
-			return ResponseHelper.getErrosResponse(result, HttpStatus.BAD_GATEWAY);
+			return ResponseHelper.getErrosResponse(result, HttpStatus.BAD_REQUEST);
 //			return new ResponseEntity<>(ErrorHelper.getAllError(result), HttpStatus.BAD_GATEWAY);
 		}
 
