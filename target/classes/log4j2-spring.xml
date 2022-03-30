@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Configuration SYSTEM "log4j2-spring.dtd">
+<Configuration>
+	<Appenders>
+		<Console name="STDOUT" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{dd-MM-yyyy HH:mm:ss}{black} %highlight{%-5level } [%style{%t{1.}{bright,blue}] %style{%C{1.}}{bright,yellow}: %msg%n" disableAnsi="false"/>
+		</Console>
+		
+		<RollingFile name="RollingFile" fileName="./Logs/gira-Log.logs" 
+			filePattern="./Logs/$${date:dd-MM-yyyy}/gira-Log-%d{dd-MM-yyyy}-%i.Log.gz">
+			<PatternLayout pattern="%d{HH:mm:ss} [%t] %-5level ${PID:-} --- %c{1.} %m%n" />
+			<Policies>
+				<OnStartupTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="1 MB" />
+			</Policies>
+		</RollingFile>		
+		<Http name="Http" url="https://webhook.site/fb34316a-8a40-4901-93d7-2ced4cf53ae1">
+			<Property name="X-Java-Runtime" value="$${java:runtime}" />
+			<JsonLayout properties="true" />
+			<PatternLayout pattern="%d{dd-MM-yyyy HH:mm:ss} [%t] %-5level ${PID:-} --- %c{1.} %m%n"/>
+		</Http>
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="STDOUT" />
+			<AppenderRef ref="RollingFile" />
+		</Root>
+		<Logger level="debug" name="cybersoft.javabackend.java16giranghia">
+			<!--<AppenderRef ref="Http" />-->
+		</Logger>
+		<Logger level="debug" name="org.springframework.boot"></Logger>
+	</Loggers>
+</Configuration>
