@@ -23,7 +23,7 @@ import cybersoft.javabackend.java16giranghia.role.dto.GiraGroupWithRoleDTO;
 import cybersoft.javabackend.java16giranghia.role.service.GiraGroupService;
 
 @RestController
-@RequestMapping("groups")
+@RequestMapping("api/v1/groups")
 public class GiraGroupController {
 	@Autowired
 	private GiraGroupService services;
