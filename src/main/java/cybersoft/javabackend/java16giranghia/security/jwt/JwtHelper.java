@@ -3,9 +3,6 @@ package cybersoft.javabackend.java16giranghia.security.jwt;
 import java.util.Date;
 
 import javax.servlet.http.HttpServletRequest;
-
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 
 import io.jsonwebtoken.ExpiredJwtException;
@@ -16,19 +13,22 @@ import io.jsonwebtoken.SignatureException;
 import io.jsonwebtoken.UnsupportedJwtException;
 import lombok.extern.slf4j.Slf4j;
 
+
 @Slf4j
 @Component
 public class JwtHelper {
-	private String prefix = "Bearer";
 	private String key = "whatissecret";
+	private String prefix = "Bearer ";
+	
 	public String generateJwtToken(String username) {
+		
 		Date currentDate = new Date();
 		
 		return Jwts.builder()
 				.setSubject(username)
 				.setIssuedAt(currentDate)
-				.setExpiration(new Date(currentDate.getTime() + 86400000)) // thoi gian token ton tai trong 1 ngay
-				.signWith(SignatureAlgorithm.HS512, "key")
+				.setExpiration(new Date(currentDate.getTime() + 86400000))
+				.signWith(SignatureAlgorithm.HS512, key)
 				.compact();
 	}
 
@@ -51,19 +51,19 @@ public class JwtHelper {
 		return false;
 	}
 	
-	public String getToken (HttpServletRequest request) {
+	public String getToken(HttpServletRequest request) {
 		String jwt = request.getHeader("Authorization");
-		if(jwt == null) {
-			return jwt;
-		}
 		
-		 return jwt.substring(prefix.length(), jwt.length());
+		if(jwt == null)
+			return jwt;
+		
+		return jwt.substring(prefix.length(), jwt.length());
 	}
 	
 	public String getUsername(String token) {
 		return Jwts.parser()
 				.setSigningKey(key)
-				.parseClaimsJwt(token)
+				.parseClaimsJws(token)
 				.getBody()
 				.getSubject();
 	}

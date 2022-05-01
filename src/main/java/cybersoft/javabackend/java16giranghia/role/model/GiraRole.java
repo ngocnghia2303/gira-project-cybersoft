@@ -25,8 +25,8 @@ public class GiraRole extends BaseEntity {
 	// Validate constraint
 	// Attribute
 
-	// 1. Code (min = 5, max = 5)
-	@Size(min = 5, max = 5)
+	// 1. Code (min = 5, max = 100)
+	@Size(min = 5, max = 100)
 	private String code;
 	// 2. Description
 	@NotBlank
@@ -34,6 +34,6 @@ public class GiraRole extends BaseEntity {
 
 	// Reference many - many
 	@ManyToMany(mappedBy = "roles")
-	private Set<GiraGroup> groups = new LinkedHashSet(); // write LinkedHashSet truoc roi viet anotation sau
+	private Set<GiraGroup> groups = new LinkedHashSet<>(); // write LinkedHashSet truoc roi viet anotation sau
 
 }

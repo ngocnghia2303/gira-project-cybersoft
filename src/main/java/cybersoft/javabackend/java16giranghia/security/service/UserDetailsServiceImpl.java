@@ -18,7 +18,6 @@ import cybersoft.javabackend.java16giranghia.user.repository.GiraUserRepository;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
-	
 	@Autowired
 	private GiraUserRepository repository;
 
@@ -26,28 +25,22 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		Optional<GiraUser> userOpt = repository.findByUsername(username);
 		
-		if(userOpt.isEmpty()) {
+		if(userOpt.isEmpty())
 			return null;
-		}
 		
-		// get User
 		GiraUser currentUser = userOpt.get();
-		// lay nhom quyen de ep kieu GranteAuthority
 		
-		currentUser.getGroups();
 		return new User(currentUser.getUsername(), currentUser.getPassword(), getGrantedAuthorities(currentUser));
 	}
 	
-	private List<GrantedAuthority> getGrantedAuthorities(GiraUser user){
+	private List<GrantedAuthority> getGrantedAuthorities(GiraUser user) {
 		List<GrantedAuthority> authorities = new ArrayList<GrantedAuthority>();
-		user.getGroups().forEach(group ->
-			authorities.add(
+		
+		user.getGroups().forEach(group -> authorities.add(
 					new SimpleGrantedAuthority(group.getCode())
-					));
+				));
 		
 		return authorities;
 	}
-	
-	
-	
+
 }

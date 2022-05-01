@@ -19,22 +19,17 @@ import cybersoft.javabackend.java16giranghia.security.service.AuthService;
 public class AuthController {
 	@Autowired
 	private AuthService service;
-
+	
 	@PostMapping("login")
 	public Object login(@RequestBody @Valid LoginDTO dto, BindingResult bindingResult) {
-		if (bindingResult.hasErrors()) {
+		if(bindingResult.hasErrors())
 			return ResponseHelper.getErrosResponse(bindingResult, HttpStatus.BAD_REQUEST);
-		}
-		// NEU DANG NHAP THANH CONG -> return token
-		// NEU DUNG USER / SAI PASS -> return infor to user
-
+		
 		String token = service.login(dto);
-
-		if (token == null) {
-			return ResponseHelper.getErrosResponse("Password is not correct", HttpStatus.BAD_REQUEST);
-		} else {
+		
+		if(token == null) {
+			return ResponseHelper.getErrosResponse("Password is not correct.", HttpStatus.BAD_REQUEST);
+		} else 
 			return ResponseHelper.getResponse(token, HttpStatus.OK);
-		}
 	}
-
 }
