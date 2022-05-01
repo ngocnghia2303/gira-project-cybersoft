@@ -24,16 +24,17 @@ public class AuthServiceImpl implements AuthService {
 	
 	@Override
 	public String login(LoginDTO dto) {
-		// get user infor
+		// get user information
 		Optional<GiraUser> userOpt = repository.findByUsername(dto.getUsername());
-
-		// check password (true or false)
+		
+		// check password
 		String encodedPassword = userOpt.get().getPassword();
 		
 		if(passwordEncoder.matches(dto.getPassword(), encodedPassword)) {
 			return jwts.generateJwtToken(dto.getUsername());
 		}
-
+		
 		return null;
 	}
+
 }

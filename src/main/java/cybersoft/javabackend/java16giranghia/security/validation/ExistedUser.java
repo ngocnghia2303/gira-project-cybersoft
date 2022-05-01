@@ -12,8 +12,8 @@ import javax.validation.Payload;
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.FIELD})
 public @interface ExistedUser {
-	String message() default "User is not existed";
+	String message() default "User is not existed.";
 	
 	Class<?>[] groups() default {};
-	Class<? extends Payload>[] payload() default{};
+	Class<? extends Payload>[] payload() default {};
 }

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: cybersoft.javabackend.java16giranghia.repository.GiraRoleRepositoryTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in cybersoft.javabackend.java16giranghia.repository.GiraRoleRepositoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s - in cybersoft.javabackend.java16giranghia.repository.GiraRoleRepositoryTest

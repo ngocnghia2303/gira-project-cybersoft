@@ -1,6 +1,10 @@
 package cybersoft.javabackend.java16giranghia.role.service;
 
 import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
+
+import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -26,5 +30,40 @@ public class GiraRoleServiceImpl implements GiraRoleService {
 		GiraRole role = GiraRoleMapper.INSTANCE.mapToEntity(dto);
 		return repository.save(role);
 	}
+
+	@Override
+	public GiraRole findById(String id) {
+		
+		Optional<GiraRole> roleOtp = repository.findById(UUID.fromString(id));
+		// return result if be found. Also, return null if not find
+		return roleOtp.orElse(null);
+	}
+
+	@Override
+	public GiraRole update(UUID id, @Valid GiraRoleDTO dto) {
+		Optional<GiraRole> roleOtp = repository.findById(id);
+		
+		if(roleOtp.isEmpty()) {
+			return null;
+		}
+		
+		GiraRole currentRole = roleOtp.get();
+		// check dto's content is changed
+		if(!currentRole.getCode().equals(dto.getCode())) {
+			// check role code is used
+			Optional<GiraRole> existedRole = repository.findByCode(dto.getCode());
+			if(existedRole.isPresent()) {
+				return null;
+			}
+			
+			currentRole.setCode(dto.getCode());
+		}
+		
+		currentRole.setDescription(dto.getDescription());
+		
+		return repository.save(currentRole);
+	}
+	
+	
 
 }
