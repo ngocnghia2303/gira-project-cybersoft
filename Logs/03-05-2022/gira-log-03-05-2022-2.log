@@ -1,0 +1,467 @@
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'objectNamingStrategy'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'mbeanExporter' via factory method to bean named 'objectNamingStrategy'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'mbeanExporter' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@54fce3a8'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mbeanServer'
+16:36:09 [restartedMain] DEBUG   --- o.s.j.s.JmxUtils - Found MBeanServer: com.sun.jmx.mbeanserver.JmxMBeanServer@27a8c74e
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'liveReloadServerEventListener'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'optionalLiveReloadServer'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'optionalLiveReloadServer' via factory method to bean named 'liveReloadServer'
+16:36:09 [restartedMain] INFO    --- o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'liveReloadServerEventListener' via factory method to bean named 'optionalLiveReloadServer'
+16:36:09 [restartedMain] DEBUG   --- o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'localeResolver'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'themeResolver'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'flashMapManager'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcPatternParser'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcPathMatcher'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'handlerFunctionAdapter'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'handlerExceptionResolver'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+16:36:09 [restartedMain] DEBUG   --- o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcViewResolver'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewNameTranslator'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'defaultViewResolver'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewResolver'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'viewResolver' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@54fce3a8'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'applicationAvailability'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.availability.AvailabilityHealthContributorAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration$Hikari'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration$Hikari' via constructor to bean named 'dataSource'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'platformTransactionManagerCustomizers'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cachesEndpointWebExtension'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'cachesEndpointWebExtension' via factory method to bean named 'cachesEndpoint'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.web.servlet.ServletManagementContextAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'servletWebChildContextFactory'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'managementServletContext'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'managementServletContext' via factory method to bean named 'management.endpoints.web-org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointProperties'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.health.HealthEndpointAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration' via constructor to bean named 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'management.info-org.springframework.boot.actuate.autoconfigure.info.InfoContributorProperties'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'configurationPropertiesReportEndpointWebExtension'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'configurationPropertiesReportEndpointWebExtension' via factory method to bean named 'configurationPropertiesReportEndpoint'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.endpoint.jmx.JmxEndpointAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'management.endpoints.jmx-org.springframework.boot.actuate.autoconfigure.endpoint.jmx.JmxEndpointProperties'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.actuate.autoconfigure.endpoint.jmx.JmxEndpointAutoConfiguration' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@135de4dc'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.actuate.autoconfigure.endpoint.jmx.JmxEndpointAutoConfiguration' via constructor to bean named 'management.endpoints.jmx-org.springframework.boot.actuate.autoconfigure.endpoint.jmx.JmxEndpointProperties'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jmxAnnotationEndpointDiscoverer'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'jmxAnnotationEndpointDiscoverer' via factory method to bean named 'endpointOperationParameterMapper'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jmxIncludeExcludePropertyEndpointFilter'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'endpointObjectNameFactory'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'endpointObjectNameFactory' via factory method to bean named 'mbeanServer'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'endpointObjectNameFactory' via factory method to bean named 'environment'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jmxMBeanExporter'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'jmxMBeanExporter' via factory method to bean named 'mbeanServer'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'jmxMBeanExporter' via factory method to bean named 'endpointObjectNameFactory'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'jmxMBeanExporter' via factory method to bean named 'jmxAnnotationEndpointDiscoverer'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'eagerlyInitializeJmxEndpointExporter'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'pathMappedEndpoints'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'pathMappedEndpoints' via factory method to bean named 'jmxAnnotationEndpointDiscoverer'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'pathMappedEndpoints' via factory method to bean named 'servletEndpointDiscoverer'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'pathMappedEndpoints' via factory method to bean named 'webEndpointDiscoverer'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'pathMappedEndpoints' via factory method to bean named 'controllerEndpointDiscoverer'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'environmentEndpointWebExtension'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'environmentEndpointWebExtension' via factory method to bean named 'environmentEndpoint'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcTemplate'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'jdbcTemplate' via factory method to bean named 'dataSource'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'jdbcTemplate' via factory method to bean named 'spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'namedParameterJdbcTemplate'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'namedParameterJdbcTemplate' via factory method to bean named 'jdbcTemplate'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.flyway.FlywayEndpointAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.logging.LogFileWebEndpointAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'management.endpoint.logfile-org.springframework.boot.actuate.autoconfigure.logging.LogFileWebEndpointProperties'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.metrics.CompositeMeterRegistryAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.metrics.integration.IntegrationMetricsAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.metrics.jdbc.DataSourcePoolMetricsAutoConfiguration$HikariDataSourceMetricsConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.actuate.autoconfigure.metrics.jdbc.DataSourcePoolMetricsAutoConfiguration$HikariDataSourceMetricsConfiguration' via constructor to bean named 'simpleMeterRegistry'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.metrics.jdbc.DataSourcePoolMetricsAutoConfiguration$DataSourcePoolMetadataMetricsConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.metrics.jdbc.DataSourcePoolMetricsAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.metrics.web.client.RestTemplateMetricsConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'restTemplateExchangeTagsProvider'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'metricsRestTemplateCustomizer'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'metricsRestTemplateCustomizer' via factory method to bean named 'simpleMeterRegistry'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'metricsRestTemplateCustomizer' via factory method to bean named 'restTemplateExchangeTagsProvider'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'metricsRestTemplateCustomizer' via factory method to bean named 'management.metrics-org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.metrics.web.tomcat.TomcatMetricsAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tomcatMetricsBinder'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'tomcatMetricsBinder' via factory method to bean named 'simpleMeterRegistry'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.trace.http.HttpTraceEndpointAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration$CglibAutoProxyConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'lifecycleProcessor'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'lifecycleProcessor' via factory method to bean named 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.data.jpa.util.JpaMetamodelCacheCleanup'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.data.jpa.repository.support.JpaEvaluationContextExtension'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.data.web.config.ProjectingArgumentResolverRegistrar'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'scheduledBeanLazyInitializationExcludeFilter'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'taskSchedulerBuilder'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'taskSchedulerBuilder' via factory method to bean named 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration$CglibAutoProxyConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionTemplate'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'transactionTemplate' via factory method to bean named 'transactionManager'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'multipartResolver'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration' via constructor to bean named 'spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'restartingClassPathChangedEventListener'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'fileSystemWatcherFactory'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'restartingClassPathChangedEventListener' via factory method to bean named 'fileSystemWatcherFactory'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'classPathFileSystemWatcher'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'classPathRestartStrategy'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'classPathFileSystemWatcher' via factory method to bean named 'fileSystemWatcherFactory'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'classPathFileSystemWatcher' via factory method to bean named 'classPathRestartStrategy'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'conditionEvaluationDeltaLoggingListener'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.security.servlet.SecurityRequestMatchersManagementContextConfiguration$MvcRequestMatcherConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestMatcherProvider'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMatcherProvider' via factory method to bean named 'dispatcherServletRegistration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.security.servlet.SecurityRequestMatchersManagementContextConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$SameManagementContextConfiguration$EnableSameManagementContextConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$SameManagementContextConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$SameManagementContextConfiguration' via constructor to bean named 'environment'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration'
+16:36:09 [restartedMain] DEBUG   --- o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'management.server-org.springframework.boot.actuate.autoconfigure.web.server.ManagementServerProperties'
+16:36:09 [restartedMain] DEBUG   --- o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+16:36:09 [restartedMain] DEBUG   --- o.s.j.e.a.AnnotationMBeanExporter - Autodetecting user-defined JMX MBeans
+16:36:09 [restartedMain] DEBUG   --- o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+16:36:09 [restartedMain] DEBUG   --- o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+16:36:09 [restartedMain] DEBUG   --- o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483646
+16:36:09 [restartedMain] INFO    --- o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:36:09 [restartedMain] INFO    --- o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:36:09 [restartedMain] DEBUG   --- o.s.c.s.DefaultLifecycleProcessor - Successfully started bean 'webServerStartStop'
+16:36:09 [restartedMain] DEBUG   --- o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+16:36:09 [restartedMain] INFO    --- s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+16:36:09 [restartedMain] INFO    --- s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Total number of request handlers 22
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/actuator/health/**], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/actuator/health/**], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/actuator/health], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/actuator/health], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/actuator], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/actuator], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/api/v1/auth/login], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/api/v1/auth/login], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/api/v1/groups/add-role/{group-id}/{role-id}], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/api/v1/groups/add-role/{group-id}/{role-id}], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/api/v1/groups/remove-role/{group-id}/{role-id}], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/api/v1/groups/remove-role/{group-id}/{role-id}], supportedMethods=[DELETE], supportedMediaTypes=[], producibleMediaTypes=[]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/api/v1/groups/{group-id}], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/api/v1/groups/{group-id}], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/api/v1/groups], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/api/v1/groups], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/api/v1/groups], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/api/v1/groups], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/api/v1/roles/{role-id}], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/api/v1/roles/{role-id}], supportedMethods=[PUT], supportedMediaTypes=[], producibleMediaTypes=[]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/api/v1/roles/{role-id}], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/api/v1/roles/{role-id}], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/api/v1/roles], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/api/v1/roles], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/api/v1/roles], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/api/v1/roles], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/api/v1/users/{user-name}/roles-by-join-query], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/api/v1/users/{user-name}/roles-by-join-query], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/api/v1/users/{user-name}/roles], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/api/v1/users/{user-name}/roles], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/api/v1/users], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/api/v1/users], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[text/html]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources/configuration/security], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/security], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources/configuration/ui], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/ui], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Adding key: [/welcome], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/welcome], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.p.DefaultRequestHandlerCombiner - Combined number of request handlers 22
+16:36:09 [restartedMain] INFO    --- s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Ljava/lang/Object;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |login|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding input parameter of type Lcybersoft/javabackend/java16giranghia/security/dto/LoginDTO;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |login|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |login|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Reading property username
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'username' renamed to 'username'
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Adding property username to model
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Reading property password
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'password' renamed to 'password'
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Adding property password to model
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+16:36:09 [restartedMain] DEBUG   --- s.d.s.DefaultModelProvider - Inferred 2 properties. Properties found password, username
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Generated parameter model id: LoginDTO, name: LoginDTO, schema: {} models
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Adding a new model with key LoginDTO
+16:36:09 [restartedMain] DEBUG   --- s.d.s.DefaultModelProvider - Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Did not find any parameter models for java.lang.Object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.DefaultModelDependencyProvider - Marking base type Ljava/lang/Object; as seen
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.OperationAuthReader - Authorization count 1 for method login
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Ljava/lang/Object;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |addRole|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |addRole|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |addRole|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Did not find any parameter models for java.lang.Object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.OperationAuthReader - Authorization count 1 for method addRole
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Ljava/lang/Object;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |createNewGroup|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding input parameter of type Lcybersoft/javabackend/java16giranghia/role/dto/GiraGroupDTO;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |createNewGroup|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |createNewGroup|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Reading property id
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setId
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'id' renamed to 'id'
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Adding property id to model
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setId
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setId
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setId
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setId
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Reading property code
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setCode
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'code' renamed to 'code'
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Adding property code to model
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setCode
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setCode
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setCode
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setCode
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Reading property description
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setDescription
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'description' renamed to 'description'
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Adding property description to model
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setDescription
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setDescription
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setDescription
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setDescription
+16:36:09 [restartedMain] DEBUG   --- s.d.s.DefaultModelProvider - Inferred 3 properties. Properties found code, description, id
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Generated parameter model id: GiraGroupDTO, name: GiraGroupDTO, schema: {} models
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Adding a new model with key GiraGroupDTO
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Did not find any parameter models for java.lang.Object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.OperationAuthReader - Authorization count 1 for method createNewGroup
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Ljava/lang/Object;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |findAllGroup|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |findAllGroup|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |findAllGroup|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Did not find any parameter models for java.lang.Object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.OperationAuthReader - Authorization count 1 for method findAllGroup
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Ljava/lang/Object;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |findById|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |findById|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |findById|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Did not find any parameter models for java.lang.Object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.OperationAuthReader - Authorization count 1 for method findById
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Ljava/lang/Object;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |removeRole|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |removeRole|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |removeRole|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Did not find any parameter models for java.lang.Object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.OperationAuthReader - Authorization count 1 for method removeRole
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Ljava/lang/Object;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |createNewRole|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding input parameter of type Lcybersoft/javabackend/java16giranghia/role/dto/GiraRoleDTO;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |createNewRole|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |createNewRole|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Did not find any parameter models for java.lang.Object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Reading property id
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setId
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'id' renamed to 'id'
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Adding property id to model
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setId
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setId
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setId
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setId
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Reading property code
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setCode
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'code' renamed to 'code'
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Adding property code to model
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setCode
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setCode
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setCode
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setCode
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Reading property description
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setDescription
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'description' renamed to 'description'
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Adding property description to model
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setDescription
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setDescription
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setDescription
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setDescription
+16:36:09 [restartedMain] DEBUG   --- s.d.s.DefaultModelProvider - Inferred 3 properties. Properties found code, description, id
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Generated parameter model id: GiraRoleDTO, name: GiraRoleDTO, schema: {} models
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Adding a new model with key GiraRoleDTO
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.OperationAuthReader - Authorization count 1 for method createNewRole
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Ljava/lang/Object;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |findAllRoles|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |findAllRoles|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |findAllRoles|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Did not find any parameter models for java.lang.Object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.OperationAuthReader - Authorization count 1 for method findAllRoles
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Ljava/lang/Object;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |findRoleById|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |findRoleById|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |findRoleById|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Did not find any parameter models for java.lang.Object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.OperationAuthReader - Authorization count 1 for method findRoleById
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Ljava/lang/Object;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |update|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding input parameter of type Lcybersoft/javabackend/java16giranghia/role/dto/GiraRoleDTO;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |update|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |update|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Did not find any parameter models for java.lang.Object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Generated parameter model id: GiraRoleDTO, name: GiraRoleDTO, schema: {} models
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.OperationAuthReader - Authorization count 1 for method update
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Ljava/lang/Object;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |createNewUser|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding input parameter of type Lcybersoft/javabackend/java16giranghia/user/dto/GiraUserDTO;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |createNewUser|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |createNewUser|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Did not find any parameter models for java.lang.Object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Reading property username
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'username' renamed to 'username'
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Adding property username to model
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setUsername
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Reading property password
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'password' renamed to 'password'
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Adding property password to model
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setPassword
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Reading property displayName
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setDisplayName
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'displayName' renamed to 'displayName'
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Adding property displayName to model
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setDisplayName
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setDisplayName
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setDisplayName
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setDisplayName
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Reading property email
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setEmail
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'email' renamed to 'email'
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Adding property email to model
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setEmail
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setEmail
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setEmail
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setEmail
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Reading property status
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setStatus
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'status' renamed to 'status'
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.OptimizedModelPropertiesProvider - Adding property status to model
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setStatus
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setStatus
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setStatus
+16:36:09 [restartedMain] DEBUG   --- s.d.s.p.b.BeanModelProperty - Evaluating unwrapped setter for member setStatus
+16:36:09 [restartedMain] DEBUG   --- s.d.s.DefaultModelProvider - Inferred 5 properties. Properties found displayName, email, password, status, username
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Generated parameter model id: GiraUserDTO, name: GiraUserDTO, schema: {} models
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Adding a new model with key GiraUserDTO
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.OperationAuthReader - Authorization count 1 for method createNewUser
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Ljava/lang/Object;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |findRolesByUsernameUsingJoin|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |findRolesByUsernameUsingJoin|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |findRolesByUsernameUsingJoin|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Did not find any parameter models for java.lang.Object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.OperationAuthReader - Authorization count 1 for method findRolesByUsernameUsingJoin
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Ljava/lang/Object;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |findUserRolesByUsername|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |findUserRolesByUsername|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |findUserRolesByUsername|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Did not find any parameter models for java.lang.Object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.OperationAuthReader - Authorization count 1 for method findUserRolesByUsername
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Ljava/lang/Object;
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |welcome|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |welcome|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |welcome|
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.s.ApiModelReader - Did not find any parameter models for java.lang.Object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to: object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+16:36:09 [restartedMain] DEBUG   --- s.d.s.r.o.OperationAuthReader - Authorization count 1 for method welcome
+16:36:09 [restartedMain] DEBUG   --- o.s.c.s.DefaultLifecycleProcessor - Successfully started bean 'documentationPluginsBootstrapper'
+16:36:09 [restartedMain] DEBUG   --- o.s.c.s.DefaultLifecycleProcessor - Successfully started bean 'webServerGracefulShutdown'
+16:36:09 [restartedMain] INFO    --- c.j.j.Java16GiraNghiaApplication - Started Java16GiraNghiaApplication in 1.269 seconds (JVM running for 2007.991)
+16:36:09 [restartedMain] INFO    --- o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+16:36:12 [RMI TCP Connection(37)-127.0.0.1] INFO    --- o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+16:36:12 [RMI TCP Connection(37)-127.0.0.1] DEBUG   --- o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+16:36:12 [RMI TCP Connection(37)-127.0.0.1] DEBUG   --- o.s.c.s.DefaultLifecycleProcessor - Bean 'documentationPluginsBootstrapper' completed its stop procedure
+16:36:12 [RMI TCP Connection(37)-127.0.0.1] DEBUG   --- o.s.c.s.DefaultLifecycleProcessor - Bean 'webServerGracefulShutdown' completed its stop procedure
+16:36:12 [RMI TCP Connection(37)-127.0.0.1] DEBUG   --- o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483646
+16:36:12 [RMI TCP Connection(37)-127.0.0.1] DEBUG   --- o.s.c.s.DefaultLifecycleProcessor - Bean 'webServerStartStop' completed its stop procedure
+16:36:12 [RMI TCP Connection(37)-127.0.0.1] DEBUG   --- o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+16:36:12 [RMI TCP Connection(37)-127.0.0.1] DEBUG   --- o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+16:36:12 [RMI TCP Connection(37)-127.0.0.1] DEBUG   --- o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+16:36:12 [RMI TCP Connection(37)-127.0.0.1] INFO    --- o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:36:12 [RMI TCP Connection(37)-127.0.0.1] DEBUG   --- o.h.i.SessionFactoryImpl - HHH000031: Closing
+16:36:12 [RMI TCP Connection(37)-127.0.0.1] DEBUG   --- o.h.t.s.TypeConfiguration$Scope - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@58f38564] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@128e2922]
+16:36:12 [RMI TCP Connection(37)-127.0.0.1] DEBUG   --- o.h.s.i.AbstractServiceRegistryImpl - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+16:36:12 [RMI TCP Connection(37)-127.0.0.1] DEBUG   --- o.h.b.r.i.BootstrapServiceRegistryImpl - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+16:36:12 [RMI TCP Connection(37)-127.0.0.1] INFO    --- c.z.h.HikariDataSource - HikariPool-10 - Shutdown initiated...
+16:36:12 [RMI TCP Connection(37)-127.0.0.1] DEBUG   --- c.z.h.p.HikariPool - HikariPool-10 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+16:36:12 [HikariPool-10 connection closer] DEBUG   --- c.z.h.p.PoolBase - HikariPool-10 - Closing connection org.postgresql.jdbc.PgConnection@153501de: (connection evicted)
+16:36:12 [HikariPool-10 connection closer] DEBUG   --- c.z.h.p.PoolBase - HikariPool-10 - Closing connection org.postgresql.jdbc.PgConnection@29012b68: (connection evicted)
+16:36:12 [HikariPool-10 connection closer] DEBUG   --- c.z.h.p.PoolBase - HikariPool-10 - Closing connection org.postgresql.jdbc.PgConnection@27c6d038: (connection evicted)
+16:36:12 [HikariPool-10 connection closer] DEBUG   --- c.z.h.p.PoolBase - HikariPool-10 - Closing connection org.postgresql.jdbc.PgConnection@23f94018: (connection evicted)
+16:36:12 [HikariPool-10 connection closer] DEBUG   --- c.z.h.p.PoolBase - HikariPool-10 - Closing connection org.postgresql.jdbc.PgConnection@66fbda03: (connection evicted)
+16:36:12 [HikariPool-10 connection closer] DEBUG   --- c.z.h.p.PoolBase - HikariPool-10 - Closing connection org.postgresql.jdbc.PgConnection@4681f7df: (connection evicted)
+16:36:12 [HikariPool-10 connection closer] DEBUG   --- c.z.h.p.PoolBase - HikariPool-10 - Closing connection org.postgresql.jdbc.PgConnection@5757b827: (connection evicted)
+16:36:12 [HikariPool-10 connection closer] DEBUG   --- c.z.h.p.PoolBase - HikariPool-10 - Closing connection org.postgresql.jdbc.PgConnection@3ec7cb55: (connection evicted)
+16:36:12 [HikariPool-10 connection closer] DEBUG   --- c.z.h.p.PoolBase - HikariPool-10 - Closing connection org.postgresql.jdbc.PgConnection@6d4254c: (connection evicted)
+16:36:12 [HikariPool-10 connection closer] DEBUG   --- c.z.h.p.PoolBase - HikariPool-10 - Closing connection org.postgresql.jdbc.PgConnection@4f221546: (connection evicted)
+16:36:12 [RMI TCP Connection(37)-127.0.0.1] DEBUG   --- c.z.h.p.HikariPool - HikariPool-10 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+16:36:12 [RMI TCP Connection(37)-127.0.0.1] INFO    --- c.z.h.HikariDataSource - HikariPool-10 - Shutdown completed.

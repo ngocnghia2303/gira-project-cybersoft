@@ -1,6 +1,7 @@
 package cybersoft.javabackend.java16giranghia.user.model;
 
 import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Set;
 
 import javax.persistence.Column;
@@ -11,6 +12,7 @@ import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
 import cybersoft.javabackend.java16giranghia.common.model.BaseEntity;
+import cybersoft.javabackend.java16giranghia.role.dto.GiraRoleDTO;
 import cybersoft.javabackend.java16giranghia.role.model.GiraGroup;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -64,6 +66,5 @@ public class GiraUser extends BaseEntity{
 	
 	@Column(name="facebook")
 	private String facebook;
-	
 	
 }

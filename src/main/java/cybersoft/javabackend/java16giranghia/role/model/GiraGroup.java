@@ -6,10 +6,9 @@ import java.util.Set;
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
-import javax.persistence.JoinColumns;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
-import javax.persistence.OneToMany;
+import javax.persistence.NamedEntityGraph;
 import javax.persistence.Table;
 
 import cybersoft.javabackend.java16giranghia.common.model.BaseEntity;
@@ -38,7 +37,7 @@ public class GiraGroup extends BaseEntity {
 			name = "gira_group_role",
 			joinColumns = @JoinColumn(name = "group_id"),
 			inverseJoinColumns = @JoinColumn(name = "role_id"))
-	private Set<GiraRole> roles = new LinkedHashSet();
+	private Set<GiraRole> roles =new LinkedHashSet<GiraRole>();
 	
 	@ManyToMany(cascade = { CascadeType.MERGE, CascadeType.PERSIST }) 
 	@JoinTable(

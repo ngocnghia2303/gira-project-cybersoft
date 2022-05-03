@@ -13,4 +13,6 @@ public interface GiraGroupService {
 	GiraGroupWithRoleDTO addRole(String groupId, String roleId);
 
 	GiraGroupWithRoleDTO removeRole(String groupId, String roleId);
+
+	GiraGroupWithRoleDTO findById(String groupId);
 }

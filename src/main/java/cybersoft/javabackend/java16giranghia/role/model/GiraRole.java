@@ -9,6 +9,8 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import cybersoft.javabackend.java16giranghia.common.model.BaseEntity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -33,6 +35,7 @@ public class GiraRole extends BaseEntity {
 	private String description;
 
 	// Reference many - many
+	@JsonIgnore
 	@ManyToMany(mappedBy = "roles")
 	private Set<GiraGroup> groups = new LinkedHashSet<>(); // write LinkedHashSet truoc roi viet anotation sau
 

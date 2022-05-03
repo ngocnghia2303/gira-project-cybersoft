@@ -6,7 +6,6 @@ import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import cybersoft.javabackend.java16giranghia.common.util.ErrorHelper;
 import cybersoft.javabackend.java16giranghia.common.util.ResponseHelper;
 import cybersoft.javabackend.java16giranghia.role.dto.GiraGroupDTO;
 import cybersoft.javabackend.java16giranghia.role.dto.GiraGroupWithRoleDTO;
@@ -33,6 +31,17 @@ public class GiraGroupController {
 		List<GiraGroupDTO> groups = services.findAllDto();
 		return ResponseHelper.getResponse(groups, HttpStatus.OK);
 //		return new ResponseEntity<>(groups, HttpStatus.OK);
+	}
+	
+	@GetMapping("/{group-id}")
+	public Object findById(@PathVariable(name = "group-id") String groupId) {
+		GiraGroupWithRoleDTO group = services.findById(groupId);
+		
+		if(group == null){
+			return ResponseHelper.getErrosResponse("Group is not existed", HttpStatus.BAD_REQUEST);
+		}
+		
+		return ResponseHelper.getResponse(group, HttpStatus.OK);
 	}
 
 	@PostMapping
