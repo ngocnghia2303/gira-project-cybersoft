@@ -11,4 +11,5 @@ public interface GiraRoleMapper {
 	GiraRoleMapper INSTANCE = Mappers.getMapper(GiraRoleMapper.class);
 
 	GiraRole mapToEntity(GiraRoleDTO dto);
+	GiraRoleDTO toGiraRoleDTO(GiraRole role);
 }

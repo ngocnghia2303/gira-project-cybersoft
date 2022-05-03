@@ -3,6 +3,7 @@ cybersoft\javabackend\java16giranghia\role\repository\GiraRoleRepository.class
 cybersoft\javabackend\java16giranghia\role\controller\GiraGroupController.class
 cybersoft\javabackend\java16giranghia\security\jwt\JwtHelper.class
 cybersoft\javabackend\java16giranghia\user\controller\GiraUserController.class
+cybersoft\javabackend\java16giranghia\user\dto\GiraUserWithRolesDTO.class
 cybersoft\javabackend\java16giranghia\security\validation\ExistedUser.class
 cybersoft\javabackend\java16giranghia\role\service\GiraGroupService.class
 cybersoft\javabackend\java16giranghia\common\audit\AuditorAwareImpl.class
@@ -11,6 +12,7 @@ cybersoft\javabackend\java16giranghia\user\mapper\GiraUserMapperImpl.class
 cybersoft\javabackend\java16giranghia\security\dto\LoginDTO.class
 cybersoft\javabackend\java16giranghia\user\dto\GiraUserDTO$GiraUserDTOBuilder.class
 cybersoft\javabackend\java16giranghia\common\model\BaseEntity$1.class
+cybersoft\javabackend\java16giranghia\user\dto\GiraUserRolesDTO.class
 cybersoft\javabackend\java16giranghia\security\service\UserDetailsServiceImpl.class
 cybersoft\javabackend\java16giranghia\controller\WelcomeController.class
 cybersoft\javabackend\java16giranghia\common\util\ErrorHelper.class
@@ -20,6 +22,7 @@ cybersoft\javabackend\java16giranghia\security\dto\LoginDTO$1.class
 cybersoft\javabackend\java16giranghia\common\util\ResponseHelper.class
 cybersoft\javabackend\java16giranghia\role\model\GiraGroup.class
 cybersoft\javabackend\java16giranghia\user\model\GiraUser$1.class
+cybersoft\javabackend\java16giranghia\user\dto\GiraUserWithRolesDTO$GiraUserWithRolesDTOBuilderImpl.class
 cybersoft\javabackend\java16giranghia\common\model\BaseEntity$BaseEntityBuilderImpl.class
 cybersoft\javabackend\java16giranghia\role\dto\GiraRoleDTO.class
 cybersoft\javabackend\java16giranghia\role\repository\GiraGroupRepository.class
@@ -28,6 +31,7 @@ cybersoft\javabackend\java16giranghia\user\model\GiraUser$GiraUserBuilderImpl.cl
 cybersoft\javabackend\java16giranghia\Java16GiraNghiaApplication.class
 cybersoft\javabackend\java16giranghia\role\model\GiraRole$GiraRoleBuilder.class
 cybersoft\javabackend\java16giranghia\role\service\GiraRoleService.class
+cybersoft\javabackend\java16giranghia\user\dto\GiraUserWithRolesDTO$1.class
 cybersoft\javabackend\java16giranghia\user\model\GiraUser$GiraUserBuilder.class
 cybersoft\javabackend\java16giranghia\user\validation\annotation\UniqueUsername.class
 cybersoft\javabackend\java16giranghia\role\model\GiraRole.class
@@ -56,6 +60,7 @@ cybersoft\javabackend\java16giranghia\user\repository\GiraUserRepository.class
 cybersoft\javabackend\java16giranghia\security\service\AuthService.class
 cybersoft\javabackend\java16giranghia\role\model\GiraRole$GiraRoleBuilderImpl.class
 cybersoft\javabackend\java16giranghia\security\dto\LoginDTO$LoginDTOBuilder.class
+cybersoft\javabackend\java16giranghia\user\dto\GiraUserWithRolesDTO$GiraUserWithRolesDTOBuilder.class
 cybersoft\javabackend\java16giranghia\security\dto\UserDetailsImp.class
 cybersoft\javabackend\java16giranghia\config\ValdationConfig.class
 cybersoft\javabackend\java16giranghia\role\model\GiraGroup$GiraGroupBuilderImpl.class

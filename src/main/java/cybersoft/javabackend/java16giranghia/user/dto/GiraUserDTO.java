@@ -1,14 +1,8 @@
 package cybersoft.javabackend.java16giranghia.user.dto;
 
-import java.util.Set;
-
-import javax.persistence.Entity;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
-import cybersoft.javabackend.java16giranghia.common.model.BaseEntity;
-import cybersoft.javabackend.java16giranghia.role.model.GiraGroup;
-import cybersoft.javabackend.java16giranghia.user.model.GiraUser;
 import cybersoft.javabackend.java16giranghia.user.model.UserStatus;
 import cybersoft.javabackend.java16giranghia.user.validation.annotation.UniqueEmail;
 import cybersoft.javabackend.java16giranghia.user.validation.annotation.UniqueUsername;

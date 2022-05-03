@@ -79,4 +79,10 @@ public class GiraGroupServiceImpl implements GiraGroupService {
 		return dto;
 
 	}
+
+	@Override
+	public GiraGroupWithRoleDTO findById(String groupId) {
+		GiraGroup group = repository.findGroupWithRolesByGroupId(UUID.fromString(groupId));
+		return GiraGroupMapper.INSTANCE.toDtoWithRoles(group);
+	}
 }

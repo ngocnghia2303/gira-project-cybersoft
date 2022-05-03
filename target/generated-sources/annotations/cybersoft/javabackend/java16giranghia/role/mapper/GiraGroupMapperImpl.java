@@ -12,7 +12,7 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-05-01T23:36:02+0700",
+    date = "2022-05-03T21:10:53+0700",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 15.0.2 (Oracle Corporation)"
 )
 public class GiraGroupMapperImpl implements GiraGroupMapper {
@@ -70,6 +70,7 @@ public class GiraGroupMapperImpl implements GiraGroupMapper {
 
         GiraRoleDTO giraRoleDTO = new GiraRoleDTO();
 
+        giraRoleDTO.setId( giraRole.getId() );
         giraRoleDTO.setCode( giraRole.getCode() );
         giraRoleDTO.setDescription( giraRole.getDescription() );
 
