@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: cybersoft.javabackend.java16giranghia.role.controller.GiraRoleControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.294 s - in cybersoft.javabackend.java16giranghia.role.controller.GiraRoleControllerTest

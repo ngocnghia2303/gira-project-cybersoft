@@ -1,13 +1,14 @@
 package cybersoft.javabackend.java16giranghia.role.mapper;
 
 import cybersoft.javabackend.java16giranghia.role.dto.GiraRoleDTO;
+import cybersoft.javabackend.java16giranghia.role.dto.GiraRoleDTO.GiraRoleDTOBuilder;
 import cybersoft.javabackend.java16giranghia.role.model.GiraRole;
 import cybersoft.javabackend.java16giranghia.role.model.GiraRole.GiraRoleBuilder;
 import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-05-03T21:10:53+0700",
+    date = "2022-05-08T11:24:13+0700",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 15.0.2 (Oracle Corporation)"
 )
 public class GiraRoleMapperImpl implements GiraRoleMapper {
@@ -33,12 +34,12 @@ public class GiraRoleMapperImpl implements GiraRoleMapper {
             return null;
         }
 
-        GiraRoleDTO giraRoleDTO = new GiraRoleDTO();
+        GiraRoleDTOBuilder giraRoleDTO = GiraRoleDTO.builder();
 
-        giraRoleDTO.setId( role.getId() );
-        giraRoleDTO.setCode( role.getCode() );
-        giraRoleDTO.setDescription( role.getDescription() );
+        giraRoleDTO.id( role.getId() );
+        giraRoleDTO.code( role.getCode() );
+        giraRoleDTO.description( role.getDescription() );
 
-        return giraRoleDTO;
+        return giraRoleDTO.build();
     }
 }
