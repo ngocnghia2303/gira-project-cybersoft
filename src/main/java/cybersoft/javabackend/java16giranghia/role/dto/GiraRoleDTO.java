@@ -5,11 +5,13 @@ import java.util.UUID;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
 @Setter
 @Getter
+@Builder
 public class GiraRoleDTO {
 	private UUID id;
 	

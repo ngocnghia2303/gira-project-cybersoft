@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: cybersoft.javabackend.java16giranghia.Java16GiraNghiaApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.757 s - in cybersoft.javabackend.java16giranghia.Java16GiraNghiaApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.461 s - in cybersoft.javabackend.java16giranghia.Java16GiraNghiaApplicationTests

@@ -77,7 +77,6 @@ public class GiraGroupServiceImpl implements GiraGroupService {
 		GiraGroupWithRoleDTO dto = GiraGroupMapper.INSTANCE.toDtoWithRoles(modifiedGroup);
 
 		return dto;
-
 	}
 
 	@Override

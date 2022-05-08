@@ -1,3 +1,5 @@
 cybersoft\javabackend\java16giranghia\repository\GiraRoleRepositoryTest.class
 cybersoft\javabackend\java16giranghia\security\jwt\JwtHelperTest.class
 cybersoft\javabackend\java16giranghia\Java16GiraNghiaApplicationTests.class
+cybersoft\javabackend\java16giranghia\role\repository\GiraGroupRepositoryTest.class
+cybersoft\javabackend\java16giranghia\role\controller\GiraRoleControllerTest.class

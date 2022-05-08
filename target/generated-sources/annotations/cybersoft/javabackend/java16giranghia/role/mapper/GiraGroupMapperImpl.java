@@ -3,6 +3,7 @@ package cybersoft.javabackend.java16giranghia.role.mapper;
 import cybersoft.javabackend.java16giranghia.role.dto.GiraGroupDTO;
 import cybersoft.javabackend.java16giranghia.role.dto.GiraGroupWithRoleDTO;
 import cybersoft.javabackend.java16giranghia.role.dto.GiraRoleDTO;
+import cybersoft.javabackend.java16giranghia.role.dto.GiraRoleDTO.GiraRoleDTOBuilder;
 import cybersoft.javabackend.java16giranghia.role.model.GiraGroup;
 import cybersoft.javabackend.java16giranghia.role.model.GiraGroup.GiraGroupBuilder;
 import cybersoft.javabackend.java16giranghia.role.model.GiraRole;
@@ -12,7 +13,7 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-05-03T21:10:53+0700",
+    date = "2022-05-08T11:24:13+0700",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 15.0.2 (Oracle Corporation)"
 )
 public class GiraGroupMapperImpl implements GiraGroupMapper {
@@ -68,13 +69,13 @@ public class GiraGroupMapperImpl implements GiraGroupMapper {
             return null;
         }
 
-        GiraRoleDTO giraRoleDTO = new GiraRoleDTO();
+        GiraRoleDTOBuilder giraRoleDTO = GiraRoleDTO.builder();
 
-        giraRoleDTO.setId( giraRole.getId() );
-        giraRoleDTO.setCode( giraRole.getCode() );
-        giraRoleDTO.setDescription( giraRole.getDescription() );
+        giraRoleDTO.id( giraRole.getId() );
+        giraRoleDTO.code( giraRole.getCode() );
+        giraRoleDTO.description( giraRole.getDescription() );
 
-        return giraRoleDTO;
+        return giraRoleDTO.build();
     }
 
     protected Set<GiraRoleDTO> giraRoleSetToGiraRoleDTOSet(Set<GiraRole> set) {
